@@ -17,7 +17,7 @@ Glossar
 
 ## A-Box
 [ id=a-box ]
-In einer [Ontologie](#Ontologie) repräsentiert die A-Box den Zustand der modellierten Welt. Sie enthält das Wissen über konkrete [Individuen / Instanzen](#Instanz) einer Domäne in Form von Fakten und Aussagen über ihre [Eigenschaften](#Property) sowie ihrer Beziehungen untereinander. Dafür bedient sie sich aus der Klassenterminologie der [T-Box](#T-Box)
+In einer [Ontologie](#Ontologie) repräsentiert die A-Box den Zustand der modellierten Welt. Sie enthält [Individuen / Instanzen](#Instanz) einer Domäne in Form von Fakten über ihre [Eigenschaften](#Property) und der Beziehungen untereinander. Dafür bedient sie sich aus der [T-Box](#T-Box)
 
 ## Agiles Management
 [ id=agile_management ]
@@ -33,7 +33,7 @@ Projekte und resultierende Konsortien aus der 1. ergänzenden [BMBF](#BMBF) Auss
 
 ## Anwendungsontologie
 [ id=application_ontology ]
-Eine (Teil-)[Ontologie](#Ontologie), die spezielle [Konzepte](#Konzept) für einen definierten [Anwendungsfall/Use Case](#Use-Cases) beinhaltet und strukturiert. Es ist davon auszugehen, dass pro Use Case der PMD und somit je gefördertem Projekt mindestens eine Anwendungsontologie erstellt werden muss, um die erzeugten Informationen wiederauffindbar zu integrieren.
+Eine (Teil-)[Ontologie](#Ontologie), die spezielle [Konzepte](#Konzept) für einen definierten [Anwendungsfall/Use Case](#Use-Cases) beinhaltet und strukturiert. Es ist davon auszugehen, dass pro Use Case der PMD und somit je gefördertem Projekt, abhängig vom Gebrauch/Ziel der Ontologie, mindestens eine Anwendungsontologie erstellt werden muss, um die erzeugten Informationen wiederauffindbar zu integrieren.
 
 ## API
 [ id=api ]
@@ -54,7 +54,7 @@ In einem [agilen Framework](#Agiles-Management) enthält ein Backlog projektbezo
 
 ## Blazegraph
 [ id=blazegraph ]
-Ein [Triplestore](#Triplestore), bzw. eine Graph-Datenbank
+Ein [Triplestore](#Triplestore), bzw. eine Graph-Datenbank. Es bietet eine Schnittstelle zum Hochladen von Ontologien und Daten und stellt einen [SPARQL](#SPARQL)-Endpunkt zur Verfügung.
 
 ## BLOB
 [ id=blob ]
@@ -81,7 +81,7 @@ Unter Community versteht die PMD alle Interessierten der wissenschaftlichen und 
 
 ## Core Ontology
 [ id=core_ontology ]
-Die Core Ontology soll für die PMD einheitliche Konzepte definieren, auf die die [Anwendungsontologien](#Anwendungsontologie) wiederrum übergreifend verweisen können. So soll domänenunabhängige Vereinheitlichung in der Informationsstrukturierung ermöglicht werden. Ein Beispiel wäre, dass das [Konzept](#Konzept) "Prozess" in der Core-Ontology vorliegen würde, da es übergreifend ist und das Konzept "Ermüdungsversuch" in einer Anwendungsontologie als Subklasse auf Prozess verweist.
+Die Core Ontology soll für die PMD einheitliche Konzepte definieren, auf die die [Anwendungsontologien](#Anwendungsontologie) wiederrum übergreifend verweisen können. So soll domänenunabhängige Vereinheitlichung in der Informationsstrukturierung ermöglicht werden. Ein Beispiel wäre, dass die [Klasse](#Klasse) "Prozess" in der Core-Ontology vorliegen würde, da es übergreifend ist und die Klasse "Ermüdungsversuch" in einer Anwendungsontologie als Subklasse auf Prozess verweist.
 
 ---
 
@@ -93,7 +93,7 @@ Ein Datentyp beschreibt schematisch eine Datenstruktur. Er kann sowohl für die 
 
 ## Data Property
 [ id=data_property ]
-Spezialisiertes [Property](#Property). Die Beziehung eines Literals zu einem [Konzept](#Konzept). Entspricht im Sinne von [RDF](#RDF) dem Verb des [Tripels](#Triple--Tripel).
+Spezialisiertes [Property](#Property). Datentyp-Eigenschaften verknüpfen Individuen mit Datenwerten. Eine Datentyp-Eigenschaft ist als Instanz der integrierten [OWL](#OWL)-Klasse owl:DatatypeProperty definiert. 
 
 ## Definition of Done
 [ id=definition_of_done ]
@@ -126,7 +126,7 @@ Wissenschaftliche Expertinnen und Experten, die im Rahmen von [Use Cases](#Use-C
 
 ## FAIR
 [ id=fair ]
-Nach Wilkinson et al. (2016) sollten Daten [Findable](#Auffindbar), [Accessible](#Zugänglichkeit), [Interoperable](#Interoperabilität), sowie [Reusable](#Wiederverwendbarkeit) sein. Das Akronym ist in der jüngeren Vergangenheit populär geworden, um die übergeordneten vereinheitlichten Datenorganisationsziele der Wissenschaft zusammenzufassen.
+Nach Wilkinson et al. (2016) sollten Daten [Findable](#Auffindbar), [Accessible](#Zugänglichkeit), [Interoperable](#Interoperabilität), sowie [Reusable](#Wiederverwendbarkeit) sein. Das Akronym ist in der jüngeren Vergangenheit populär geworden, um die übergeordneten vereinheitlichten Datenorganisationsziele der Wissenschaft zusammenzufassen. Weitere Informationen finden Sie unter: Mark D Wilkinson, Michel Dumontier, IJsbrand Jan Aalbersberg, et al. 2016. [The FAIR Guiding Principles for scientific data management and stewardship](https://www.nature.com/articles/sdata201618). Scientific data 3, 1 (2016), 1–9.
 
 
 ## Framework
@@ -139,7 +139,7 @@ Ein Framework ist eine Rahmenstruktur, welche notwendig zur Befüllung des Daten
 # G
 
 ## GitLab / GitHub
-[ id=gitlab/github ]
+[ id=gitlab_github ]
 Gitlab ist eine webbasierte Anwendung, bei der man in Projekten zusammenarbeiten kann. Projekten werden in repositories archiviert und eine [Versionierung](#Versionierung) ist möglich. GitHub ist dem Gitlab sehr ähnlich, jedoch öffentlich für jeden zugänglich. In der Regel wird GitLab zum Projektmanagement und GitHub zur Ergebnisveröffentlichung verwendet.
 
 ## Governance
@@ -165,7 +165,7 @@ Möglichkeit kollaborativ an Texten zu arbeiten. HackMD unterstützt MarkDown.
 
 ## Industrielle Projekte
 [ id=industrial_projects ]
-Projekte und resultierende Konsortien aus der 2. ergänzenden [BMBF](#BMBF) Ausschreibung MaterialDigital im Rahmen der Innovations-Plattform MaterialDigital. Sie sollen primär in Zusammenarbeit mit der Innovations-Plattform Inhalte und Bausteine für die PMD erarbeiten
+Projekte und resultierende Konsortien aus der 2. ergänzenden [BMBF](#BMBF) Ausschreibung MaterialDigital im Rahmen der Innovations-Plattform MaterialDigital. Sie sollen primär in Zusammenarbeit mit der [Innovations-Plattform](#Plattform-MaterialDigital) Inhalte und Bausteine für die PMD erarbeiten
 
 ## Inferenz / Inference
 [ id=inference ]
@@ -203,10 +203,12 @@ Das Jupyter Notebook ist eine Open-Source-Webanwendung, mit der Dokumente erstel
 ## Klasse
 [ id=class ]
 s. "[Konzept](#Konzept)"
+Eine Klasse bietet einen Abstraktionsmechanismus zur Gruppierung von Ressourcen mit ähnlichen Merkmalen. Jede Klasse ist mit einer Gruppe von Individuen verbunden, die als Klassenerweiterung bezeichnet wird. Die Individuen in der Klassenerweiterung werden als [Instanzen](#Instanz) der Klasse bezeichnet. Eine Klasse hat eine intensionale Bedeutung, in diesem Fall das zugrunde liegende Konzept.
+
 
 ## Knowledge Graph / Wissensgraph
 [ id=knowledge_graph ]
-Der Wissensgraph repräsentiert die gesammelten Informationen, die anhand von [Ontologien](#Ontologie) strukturiert und instanziiert wurden. Mittels Wissensgraphen können große Datenmengen aggregiert und gesammelt Erkenntnisse abgeleitet werden.
+Ein Wissensgraph repräsentiert die gesammelten Informationen, die anhand von [Ontologien](#Ontologie) strukturiert und instanziiert wurden. Mittels Wissensgraphen können große Datenmengen aggregiert und gesammelt Erkenntnisse abgeleitet werden.
 
 ## Kommandozeile
 [ id=command_line]
@@ -214,7 +216,7 @@ s. [CLI](#CLI)
 
 ## Konzept
 [ id=concept ]
-Eine geteilte Begrifflichkeit für eine einheitlich als geschlossene Sache angesehene Entität. Beispiele sind "Prozess", "Material", "Frieden", "Glück". Gemeinsam mit [Properties](#Property) ermöglicht die [T-Box](#T-Box) in [Tripel](#Triple--Tripel) Aussagen über die Verhältnisse von Konzepten zu machen. Konzepte entsprechen dann dem Subjekt und dem Objekt des Tripels. Konzepte sind mit "[Klassen](#Klasse)" und "Objekten" synonym zu verwenden.
+Eine geteilte Begrifflichkeit für eine einheitlich als geschlossene Sache angesehene Entität. Beispiele sind "Prozess", "Material", "Frieden", "Glück". Sie können verwendet werden, um die intensionale Bedeutung von Klassen auf der Grundlage ihrer Verwendung in der Zieldomäne auszudrücken.
 
 ## Kuration
 [ id=curation ]
@@ -280,15 +282,16 @@ s. "[Konzept](#Konzept)"
 
 ## Object Property
 [ id=object_property ]
-Die Beziehung eines [Kozepts](#Konzept) zu einem anderen Konzept. Entspricht im Sinne von [RDF](#RDF) dem Verb des [Tripels](#Triple--Tripel)
+Die Beziehung eines Individuums zu einem anderen Individuum. Eine Objekteigenschaft ist definiert als eine Instanz der eingebauten [OWL](#OWL)-Klasse owl:ObjectProperty. 
 
 ## Ontologie
 [ id=ontology ]
-Explizite, formelle Strukturierung geteilter [Konzepte](#Konzept), die eine Domäne ausmachen. Eine Ontologie enthält dabei inhaltliche Verknüpfungen, entweder deskriptiv oder formell. Sie geht über eine reine [taxonomische Kategorisierung](#Taxonomie) hinaus und kann dadurch mehr leisten als eine Standardisierung. Eine Ontologie für die Materialwissenschaft und Werkstofftechnik muss wann immer möglich den skalenübergreifenden Charakter der Disziplin berücksichtigen. Sie muss in sich über eine relationale Beschreibung hinaus einen logischen Mehrwert bieten.
+Eine Ontologie ist eine explizite, formelle Spezifikation eine geteilter [Konzeptualisierung](#Konzept). Der Begriff ist der Philosophie entlehnt, wo eine Ontologie eine systematische Darstellung der Existenz ist. Für KI-Systeme ist das, was "existiert", das, was dargestellt werden kann.
+Eine Ontologie enthält dabei inhaltliche Verknüpfungen, entweder deskriptiv oder formell. Sie geht über eine reine [taxonomische Kategorisierung](#Taxonomie) hinaus und kann dadurch mehr leisten als eine Standardisierung. Eine Ontologie für die Materialwissenschaft und Werkstofftechnik muss wann immer möglich den skalenübergreifenden Charakter der Disziplin berücksichtigen. Sie muss in sich über eine relationale Beschreibung hinaus einen logischen Mehrwert bieten.
 
 ## OWL
 [ id=owl ]
-OWL, the Web Ontology language ist eine Spezifikation des [W3C](#Semantic-Web) und eine Web-[Ontologie](#Ontologie)-Sprache. Durch sie werden hierarchische [Klassen](#Klasse), Attributen und Assoziationen dieser Klassen und deren Beziehung untereinander beschrieben. Attribute und Assoziationen werden zusammenfassend als Eigenschaften einer Klasse bezeichnet. OWL ist somit die standardisierte [RDF](#RDF)-Syntax, auf die man sich für das Web geeinigt hat.
+OWL, the Web Ontology language ist eine Spezifikation des [W3C](#Semantic-Web).Es ist eine Auszeichnungssprache für die Entwicklung und Veröffentlichung von [Ontologien](#Ontologie). Ihre Dokumentation finden Sie [hier](https://www.w3.org/TR/owl-ref/#Property).
 
 ---
 
@@ -304,7 +307,7 @@ Ein Deserialisierer für [BLOBS](#BLOB), Strings und weitere große Datenmengen.
 
 ## Plattform MaterialDigital
 [ id=platform_materialdigital ]
-Die Plattform MaterialDigital (PMD) ist die Infrastruktur, die für einen einheitlichen Austausch und die Verknüpfung von Daten, Softwarelösungen und [Ontologien](#Ontologie) zum Umgang mit Materialien notwendig ist. Sie stellt damit die vereinheitlichende technologische Basis dar, mit der Daten und Software aus verschiedenen Anwendungsfeldern miteinander verknüpft werden können. Die Plattform wird erstellt und repräsentiert durch die [Plattformverantwortlichen](#Plattformverantwortliches-Konsortium--Plattformtr%C3%A4ger) und die [geförderten wissenschaftlichen Projekte](#Akademische-Projekte). 
+Die Plattform MaterialDigital (PMD) ist die Infrastruktur, die für einen einheitlichen Austausch und die Verknüpfung von Daten, Softwarelösungen und [Ontologien](#Ontologie) zum Umgang mit Materialien notwendig ist. Sie stellt damit die vereinheitlichende technologische Basis dar, mit der Daten und Software aus verschiedenen Anwendungsfeldern miteinander verknüpft werden können. Die Plattform wird erstellt und repräsentiert durch die [Plattformverantwortlichen](#Plattformverantwortliches-Konsortium--Plattformtr%C3%A4ger) und die [geförderten wissenschaftlichen](#Akademische-Projekte) und [Industriellen Projekte](#Industrielle-Projekte). 
 
 ## Plattformverantwortliches Konsortium / Plattformträger
 [ id=platform_responsible_consortium ]
@@ -324,7 +327,7 @@ Der Product Owner (PO) ist verantwortlich für den Wortlaut und die Umsetzung de
 
 ## Projektsprecher/in
 [ id=project_spokesperson ]
-Gewählte\*r Vertreter\*in eines geförderten Konsortiums eines [akademischen Projekts](#Akademische-Projekte), der/die das Konsortium gegenüber dem [PMD-Lenkungskreis](#Lenkungskreis) vertritt.
+Gewählte\*r Vertreter\*in eines geförderten Konsortiums eines [akademischen](#Akademische-Projekte) oder [industriellen Projektes](#Industrielle-Projekte), der/die das Konsortium gegenüber dem [PMD-Lenkungskreis](#Lenkungskreis) vertritt.
 
 ## Projektträger
 [ id=project_sponsor ]
@@ -349,11 +352,11 @@ Pyiron ist eine auf Python basierte integrierte [Workflowumgebung](#Workflowumge
 
 ## R-Box
 [ id=r-box ]
-Subset der [T-Box](#T-Box), das die Beziehungen oder [Properties](#Property) (Relationships) beinhaltet.
+Die Menge der Axiome für die Objekteigenschaften (Transitivität, Inklusion, Symmetrie, Reflexivität, Irreflexivität, Disjunktionalität).
 
 ## RDF
 [ id=rdf ]
-Resource-Description-[Framework](#Framework). Eine vereinheitlichte Weise um Informationen semantisch standardisiert zu beschreiben. Beispielsweise [OWL](#OWL).
+Resource-Description-[Framework](#Framework). Ein Standardmodell um Informationen semantisch standardisiert im Web zu beschreiben und auszutauschen. .
 
 ## Reasoning
 [ id=reasoning ]
@@ -403,7 +406,7 @@ Eine Taxonomie ist eine hirarchische Untergliederung in ein Klassifikationssyste
 
 ## T-Box
 [ id=t-box ]
-Die T-Box beschreibt den Terminologischen Formalismus und enthält das Wissen über die [Konzepte](#Konzept) der Domäne.
+Die T-Box beschreibt den Terminologischen Formalismus und enthält das Wissen über die [Klassen](#Klasse) der Domäne.
 In der T-Box wird definiert, welche [Klassen](#Klasse) von Objekten es in der Domäne gibt und welche Eigenschaften sie haben.
 
 ## Token
@@ -412,11 +415,12 @@ Ein randomisierter Systemschlüssel, der bspw. zur Authentifizierung genutzt wer
 
 ## Transitivität
 [ id=transitivity ]
-Logische [Inferenz](#Inferenz--Inference) nach dem Motto wenn A auf B wirkt und B auf C, dann wirkt auch A auf C. Dies wird in der Klassenhierarchie und anderen [Object Properties](#Object-Property) in [RDF](#RDF) durch [Reasoning](#Reasoning) ausnutzbar.
+Logische [Inferenz](#Inferenz--Inference) nach dem Motto wenn A auf B wirkt und B auf C, dann wirkt auch A auf C. Dies wird in der Klassenhierarchie und anderen [Object Properties](#Object-Property) in [OWL](#OWL) durch [Reasoning](#Reasoning) ausnutzbar.
 
 ## Triple / Tripel
 [ id=triple ]
-Ein Tripel ist eine Aussage aus Subjekt, Prädikat und Objekt, wie beispielsweise "Mann" - "ist Sohn von" - "Frau". Tripel werden mit einem [RDF](#RDF) einheitlich beschrieben, was zur [T-Box](#T-Box) führt. Sie können danach mit [Instanzen](#Instanz) verbunden werden, was zur [A-Box](#A-Box) führt, und Aussagen ermöglicht wie im Beispiel "Karl" - "ist Sohn von" - "Anita".
+Ein Tripel ist eine Aussage aus Subjekt, Prädikat und Objekt, wie beispielsweise "Mann" - "ist Sohn von" - "Frau".
+Tripel werden mit [RDF](#RDF) einheitlich beschrieben.
 
 ## Triplestore
 [ id=triplestore ]
@@ -425,7 +429,7 @@ Das Tripel stellt jeweils eine Datenentität dar.
 
 ## Turtle
 [ id=turtle ]
-Eine standardisierte [RDF-Syntax](#RDF)
+Eine standardisierte [RDF-Syntax](#RDF) Serialisierung.
 
 ---
 
