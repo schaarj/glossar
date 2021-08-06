@@ -17,7 +17,7 @@ Glossary
 
 ## A-Box
 [ id=a-box ]
-In an [ontology](#ontology), the A-box represents the state of the modeled world. It contains the [individuals / instances](#instance) of a domain in the form of facts, their [properties](#property), and the relations to each other. For this purpose, it makes use of the [T-Box](#T-Box)
+In an [ontology](#Ontology), the A-box represents the state of the modeled world. It contains the [individuals / instances](#Instance) of a domain in the form of facts, their [properties](#Property), and the relations to each other. For this purpose, it makes use of the [T-Box](#T-box)
 
 ## Academic Projects
 [ id=academic_projects ]
@@ -29,15 +29,16 @@ This term is part of the [FAIR](#FAIR) principle.
 
 ## Agile Management
 [ id=agile_management ]
-Agile management provides a methodology to act flexibly, pro-actively, anticipatively and proactively to introduce necessary changes. Typical elements of agile management are roles, [sprints](#sprint), and [user stories](#user story).
+Agile management provides a methodology to act flexibly, pro-actively, anticipatively and proactively to introduce necessary changes. Typical elements of agile management are roles, [sprints](#Sprint), and [user stories](#User-Story).
 
 ## Agile Manager (AM)
 [ id=agile_manager ]
-A role in [agile management](#agile_management). The agile manager assists the team in an [agile management](#agiles management) with communication, organizes meetings, ensures adherence to roles and form, keeps track of the team, communicates issues to the [product owner](#product owner), prepares the agenda, and ensures proper documentation of the team.
+A role in [agile management](#Agile-Management). The agile manager assists the team in an [agile management](#Agile-Management) with communication, organizes meetings, ensures adherence to roles and form, keeps track of the team, communicates issues to the [product owner](#Product-Owner), prepares the agenda, and ensures proper documentation of the team.
 
-## application ontology
+## Application ontology 
+
 [ id=application_ontology ]
-A (partial)[ontology](#ontology) that contains, structures, and describes, specific [entities](#entities) for a defined [use case/use cases](#use cases). It can be assumed that at least one application ontology has to be created per use case of the PMD and thus per funded project, depending on the use/goal of the ontology itself, in order to integrate the generated information in a retrievable way.
+A (partial) [ontology](#Ontology) that contains, structures, and describes, specific entities for a defined [use case/use cases](#Use-Cases). It can be assumed that at least one application ontology has to be created per use case of the PMD and thus per funded project, depending on the use/goal of the ontology itself, in order to integrate the generated information in a retrievable way.
 
 ## API
 [ id=api ]
@@ -50,11 +51,11 @@ An Automatic Programming Interface. An API is an endpoint from one IT system int
 
 ## Backlog
 [ id=backlog ]
-In an [agile framework](#agile-management), a backlog contains project-related subtasks that need to be completed. They result from breaking down [user stories](#user-story) into individually executable technical actions to be implemented by a team member.
+In an [agile framework](#Agile-Management), a backlog contains project-related subtasks that need to be completed. They result from breaking down [user stories](#User-Story) into individually executable technical actions to be implemented by a team member.
 
 ## Blazegraph
 [ id=blazegraph ]
-A [triplestore](#triplestore), or graph database. It provides an interface to upload ontologies and data, and provides a SPARQL endopoint.
+A [triplestore](#Triplestore), or graph database. It provides an interface to upload ontologies and data, and provides a [SPARQL](#SPARQL) endopoint.
 
 ## BLOB
 [ id=blob ]
@@ -73,18 +74,18 @@ BMBF is the abbreviation for "Bundesministerium für Forschung und Bildung" (Fed
 
 ## Central PMD instance (PMD-C)
 [ id=central_pmd_instance ]
-PMD [instance](#instance) established at KIT on which the [workflow environments](#workflow environment) run permanently and on which all tools can be installed and tested. 
+PMD [instance](#Instance) established at KIT on which the [workflow environments](#Workflow-environment) run permanently and on which all tools can be installed and tested. 
 
 ## Class
 [ id=class ]
-~~s. "[concept](#concept)"~~ 
-A [class](#class) provides an abstraction mechanism for grouping resources with similar characteristics. Every class is associated with a set of individuals, called the class extension. The individuals in the class extension are called the instances of the class. A class has an intensional meaning i.e., the underlying concept.
+s. [concept](#Concept)  
+A class provides an abstraction mechanism for grouping resources with similar characteristics. Every class is associated with a set of individuals, called the class extension. The individuals in the class extension are called the [instances](#Instance) of the class. A class has an intensional meaning i.e., the underlying concept.
 
 ## CLI
 [ id=cli ]
 Command Line Interface. Control of computers via specialized commands entered by keyboard into a mask.
 
-## command line
+## Command line
 [ id=command_line]
 s. [CLI](#CLI)
 
@@ -92,42 +93,42 @@ s. [CLI](#CLI)
 [ id=community ]
 By community, PMD means all interested parties in the scientific and industrial community.
 
-## concept
+## Concept
 [ id=concept ]
 A shared conceptualization for an entity uniformly regarded as a closed thing. Examples include "process", "material", "peace", "happiness". They can be used to express the intensional meaning of classes based on their use within the target domain.
-~~Together with [Properties](#Property), [T-Box](#T-Box) in [Triple](#Triple--Triple) allows to make statements about the relations of concepts. Concepts then correspond to the subject and object of the triple. Concepts are to be used synonymously with "[classes](#class)" and "objects".~~
+
 
 ## Core Ontology
 [ id=core_ontology ]
-The Core Ontology shall define unified concepts for the PMD, to which the [Application Ontologies](#Application Ontology) can in turn refer across domains. This shall enable domain-independent standardization in information structuring. An example would be that the [class](#class) "Process" would be present in the Core Ontology, since it is cross-cutting, and the class "fatigue test" would refer to Process as a subclass in an application ontology.
+The Core Ontology shall define unified concepts for the PMD, to which the [Application Ontologies](#Application-ontology) can in turn refer across domains. This shall enable domain-independent standardization in information structuring. An example would be that the [class](#Class) "Process" would be present in the Core Ontology, since it is cross-cutting, and the class "fatigue test" would refer to Process as a subclass in an application ontology.
 
-## curation
+## Curation
 [ id=curation ]
-Curation or curation process in PMD describes the ongoing adaptation and review of [software tools](#software tool), [ontologies](#ontology), and workflows for quality assurance.
+Curation or curation process in PMD describes the ongoing adaptation and review of [software tools](#Software-tool), [ontologies](#Ontology), and workflows for quality assurance.
 
 ---
 
 # D
 
-## data_type
+## Data type
 [ id=data_type ]
 A data type schematically describes a data structure. It can be used for identification as well as for structural description of resources. A storage in a datatype registry ensures a machine readability of the datatypes.
 
 ## Datatype Property
 [ id=data_property ]
-Specialized [Property](#Property). Datatype properties link individuals to data values. A datatype property is defined as an instance of the built-in OWL class owl:DatatypeProperty. ~~Corresponds in the sense of [RDF](#RDF) to the verb of [triple](#Triple--Triple).~~
+Specialized [Property](#Property). Datatype properties link individuals to data values. A datatype property is defined as an instance of the built-in [OWL](#OWL) class owl:DatatypeProperty. 
 
 ## Definition of Done
 [ id=definition_of_done ]
-Definition in an [agile framework](#agile management) of when a [user story](#user story) is complete. The Definition of Done (DoD) defines the functionality from the user's perspective that is required to fulfill that user requirement.
+Definition in an [agile framework](#Agile-Management) of when a [user story](#User-Story) is complete. The Definition of Done (DoD) defines the functionality from the user's perspective that is required to fulfill that user requirement.
 
 ## Docker Container
 [ id=docker_container ]
 A Docker Container is a standard software entity that packages the code and all of its dependencies so that the application can be executed quickly and reliably from one computing environment to another.
 
-## domain experts / community
-[ id=domain_experts/community ]
-Scientific experts who (further) develop their domain within PMD in the context of [use cases](#use cases). The scientific community as a whole thereby shapes the PMD both through their contribution and through participation methods. The selection of the scientific sub-fields represented in the PMD is based on the contributions of the domain experts.
+## Domain experts 
+[ id=domain_experts ]
+Scientific experts who (further) develop their domain within PMD in the context of [use cases](#Use-Cases). The scientific community as a whole thereby shapes the PMD both through their contribution and through participation methods. The selection of the scientific sub-fields represented in the PMD is based on the contributions of the domain experts.
 
 
 
@@ -139,7 +140,7 @@ Scientific experts who (further) develop their domain within PMD in the context 
 
 ## Epic
 [ id=epic]
-Overarching theme, comparable to [milestones](#milestone). Epics consist of numerous [user stories](#user story) and clearly stated tasks. They represent a "minimum viable or viable [product](#product)."
+Overarching theme, comparable to [milestones](#Milestone). Epics consist of numerous [user stories](#User-Story) and clearly stated tasks. They represent a "minimum viable or viable [product](#Product).
 
 ---
 
@@ -148,14 +149,14 @@ Overarching theme, comparable to [milestones](#milestone). Epics consist of nume
 
 ## FAIR
 [ id=fair ]
-According to Wilkinson et al. (2016), data should be [Findable](#Findable), [Accessible](#Accessible), [Interoperable](#Interoperable), and [Reusable](#Reusable). The acronym has recently become popular to summarize the overarching unified data organization goals of science. For more info please refer to: 
+According to Wilkinson et al. (2016), data should be [Findable](#Findable), [Accessible](#Accessibility), [Interoperable](#Interoperability), and [Reusable](#Reusable). The acronym has recently become popular to summarize the overarching unified data organization goals of science. For more info please refer to: 
 Mark D Wilkinson, Michel Dumontier, IJsbrand Jan Aalbersberg, et al. 2016. [The FAIR Guiding Principles for scientific data management and stewardship](https://www.nature.com/articles/sdata201618). Scientific data 3, 1 (2016), 1–9.
 
 ## Findable 
 [ id=findable ]
 Data that is considered "Findable" should be easily discoverable by both humans and computer systems. This term is part of the [FAIR](#FAIR) principle.
 
-## framework
+## Framework
 [ id=framework ]
 A framework is a framework structure which is necessary to populate the data space.
 
@@ -165,8 +166,8 @@ A framework is a framework structure which is necessary to populate the data spa
 # G
 
 ## GitLab / GitHub
-[ id=gitlab/github ]
-Gitlab is a web-based application where you can collaborate in projects. Projects are archived in repositories and [versioning](#versioning) is possible. GitHub is very similar to Gitlab, but publicly available to everyone. Usually GitLab is used for project management and GitHub for publishing results.
+[ id=gitlab_github ]
+Gitlab is a web-based application where you can collaborate in projects. Projects are archived in repositories and [versioning](#Versioning) is possible. GitHub is very similar to Gitlab, but publicly available to everyone. Usually GitLab is used for project management and GitHub for publishing results.
 
 ## Governance
 [ id=governance ]
@@ -175,7 +176,7 @@ The governance forms the common steering structure for involved projects and col
 ## GUI
 [ id=gui ]
 GUI stands for graphical user interface and describes a user interface of a computer with the 
-input (e.g. mouse or gestures). By means of graphic symbols and control elements it makes application software operable. The GUI replaces thereby program control by the [command line](#command line) and makes software intuitively and for laymen operable.
+input (e.g. mouse or gestures). By means of graphic symbols and control elements it makes application software operable. The GUI replaces thereby program control by the [command line](#Command-line) and makes software intuitively and for laymen operable.
 
 ---
 
@@ -191,17 +192,17 @@ Ability to work collaboratively on text. HackMD supports MarkDown.
 
 ## Industrial projects
 [ id=industrial_projects ]
-Projects and resulting consortia from the 2nd supplementary [BMBF](#BMBF) call MaterialDigital in the context of the Innovation Platform MaterialDigital. They are primarily to develop content and building blocks for PMD in collaboration with the Innovation Platform.
+Projects and resulting consortia from the 2nd supplementary [BMBF](#BMBF) call MaterialDigital in the context of the Innovation [Platform MaterialDigital](#Platform-MaterialDigital). They are primarily to develop content and building blocks for PMD in collaboration with the Innovation Platform.
 
 ## Inference / Inference
 [ id=inference ]
-The inference derived from [Reasoning](#reasoning).
+The inference derived from [Reasoning](#Reasoning).
 
 ## Instance
 [ id=instance ]
-Individual realization of a [concept](#concept). For example, the concept tensile test may be instantiated with a particular tensile test that occurred at a particular time at a particular location and with particular parameters. All instantiations together represent the [ontology](#ontology) [A-Box](#A-Box), where statements are made about instances using the terminology defined in the [T-Box](#T-Box).
+Individual realization of a [concept](#Concept). For example, the concept tensile test may be instantiated with a particular tensile test that occurred at a particular time at a particular location and with particular parameters. All instantiations together represent the [ontology](#Ontology) [A-Box](#A-Box), where statements are made about instances using the terminology defined in the [T-Box](#T-box).
 
-## interoperability
+## Interoperability
 [ id=interoperability ]
 Interoperability describes data that exists in such a way that it can be exchanged, interpreted, and combined semi-automatically with other data sets. This term is part of the [FAIR](#FAIR) principle.
 
@@ -226,9 +227,9 @@ The Jupyter Notebook is an open-source web application that can be used to creat
 
 # K
 
-## knowledge graph
+## Knowledge graph
 [ id=knowledge_graph ]
-A knowledge graph is a kownledge base in form of a graph which describes entities and their relationships structured and instantiated accordingly to [ontologies](#ontology). Knowledge graphs can be used to aggregate large amounts of data and derive collected knowledge.
+A knowledge graph is a knowledge base in form of a graph which describes entities and their relationships structured and instantiated accordingly to [ontologies](#Ontology). Knowledge graphs can be used to aggregate large amounts of data and derive collected knowledge.
 
 ---
 
@@ -246,7 +247,7 @@ A string, float or date that is assigned to a concept by [Datatype Property](#Pr
 
 # M
 
-## management_board
+## Management board
 [ id=management_board ]
 The platform is associated with an industrially staffed management circle convened by the [BMBF](#BMBF). Its purpose is to ensure that project activities are focused on maximum industrial benefit and to ensure optimal transfer of results into application. The management circle meets once or twice a year together with the members of the platform and is involved in the workshops of the project. 
 
@@ -258,7 +259,7 @@ Mapping involves mapping file elements from different data models to each other.
 [ id=metadata ]
 Metadata is structured data that contains information about characteristics of other data. 
 
-## milestone
+## Milestone
 [ id=milestone ]
 Milestones circumscribe the overall goals in the project plan. 
 
@@ -276,21 +277,21 @@ MSE is short for Material Science Experts and includes our material science expe
 
 ## Object
 [ id=object]
-s. "[concept](#concept)"
+s. "[concept](#Concept)"
 
 ## Object Property
 [ id=object_property ]
-The relationship of an [individual](#individual) to another individual. An object property is defined as an instance of the built-in OWL class owl:ObjectProperty.  ~~Corresponds, in terms of [RDF](#RDF), to the verb of [triple](#triple--triple).~~
+The relationship of an individual to another individual. An object property is defined as an instance of the built-in [OWL](#OWL) class owl:ObjectProperty. 
 
-## ontology
+## Ontology
 [ id=ontology ]
 An ontology is an explicit, formal specification of a shared conceptualization. The term is borrowed from philosophy, where an Ontology is a systematic account of existence. For AI systems, what ‘exists’ is that which can be represented.
-~~Explicit, formal structuring of shared [concepts](#concept) that make up a domain.~~ In this context, an ontology contains content links, either descriptive or formal. It goes beyond mere [taxonomic categorization](#taxonomy) and thus can do more than standardization. Whenever possible, an ontology for materials science and engineering must take into account the cross-scale nature of the discipline. It must in itself provide logical added value beyond a relational description.
+In this context, an ontology contains content links, either descriptive or formal. It goes beyond mere [taxonomic categorization](#Taxonomy) and thus can do more than standardization. Whenever possible, an ontology for materials science and engineering must take into account the cross-scale nature of the discipline. It must in itself provide logical added value beyond a relational description.
 
 ## OWL
 [ id=owl]
-OWL, the Web Ontology language is a specification of the [W3C](#Semantic-Web). It is a markup language for developing and publishing ontologies. Its documentation can be found [here](https://www.w3.org/TR/owl-ref/#Property).
-~~web [ontology](#ontology) language. It describes hierarchical [classes](#class), attributes and associations of these classes and their relationship to each other.Attributes and associations are collectively called properties of a class. OWL is thus the standardized [RDF](#RDF) syntax agreed upon for the Web.~~
+OWL, the Web Ontology language is a specification of the [W3C](#Semantic-Web). It is a markup language for developing and publishing [ontologies](#Ontology). Its documentation can be found [here](https://www.w3.org/TR/owl-ref/#Property).
+
 
 ---
 
@@ -298,7 +299,7 @@ OWL, the Web Ontology language is a specification of the [W3C](#Semantic-Web). I
 
 ## Pain Point
 [ id=pain_point ]
-In the [agile framework](#agile management), a pain point is a recurring problem that a [stakeholder group](#stakeholder) encounters in the course of its activities and that a member of that group cannot immediately resolve on its own. This creates a willingness to pay on the part of the member for the solution of the Pain Point.
+In the [agile framework](#Agile-Management), a pain point is a recurring problem that a [stakeholder group](#Stakeholder) encounters in the course of its activities and that a member of that group cannot immediately resolve on its own. This creates a willingness to pay on the part of the member for the solution of the Pain Point.
 
 ## Parser / Parsing
 [ id=parser-parsing ]
@@ -306,29 +307,29 @@ A deserializer for [BLOBS](#BLOB), strings, and other large data sets.
 
 ## Platform MaterialDigital
 [ id=platform_materialdigital ]
-The Platform MaterialDigital (PMD) is the infrastructure necessary for a unified exchange and linking of data, software solutions and [ontologies](#ontology) for dealing with materials. It thus represents the unifying technological basis with which data and software from different application fields can be linked. The platform is created and represented by the [Platform Responsible Consortium](#Platform Responsible Consortium- Platform Tr%C3%A4ger) and the [Funded Scientific Projects](#Academic Projects). 
+The Platform MaterialDigital (PMD) is the infrastructure necessary for a unified exchange and linking of data, software solutions and [ontologies](#Ontology) for dealing with materials. It thus represents the unifying technological basis with which data and software from different application fields can be linked. The platform is created and represented by the [Platform Responsible Consortium](#Platform-responsible-consortium) and the funded [Scientific ](#Academic-Projects) and [Industrial Projects](#Industrial-projects). 
 
-## platform-responsible-consortium/platform-carrier.
+## Platform responsible consortium
 [ id=platform_responsible_consortium ]
 The consortium that has been managing the MaterialDigital (PMD) platform since its inception in July 2019, consisting of the Federal Institute for Materials Research and Testing (BAM), the Karlsruhe Institute of Technology (KIT), the Max Planck Institute for Iron Research (MPIE), the Fraunhofer Institute for Mechanics of Materials (IWM), and the Leibniz Institute for Materials-oriented Technologies (IWT).
 
 ## PMD-Central / PMD-C
 [ id=pmd-central-pmd-c ]
-Server set up at KIT on which the [workflow environments](#workflow environment) run permanently and on which all tools can be installed and tested.
+Server set up at KIT on which the [workflow environments](#Workflow-environment) run permanently and on which all tools can be installed and tested.
 
 ## Product
 [ id=product ]
-A product is something created by a process that provides value to a market by solving a sum of predefined [pain points](#pain point) from customers and [stakeholder groups](#stakeholders). 
+A product is something created by a process that provides value to a market by solving a sum of predefined [pain points](#Pain-Point) from customers and [stakeholder groups](#Stakeholder). 
 
 ## Product Owner
 [ id=product_owner ]
-The Product Owner (PO) is responsible for the wording and implementation of the [User Stories](#User Story). Writes user stories, represents user interests, defines requirements (not solutions), passes responsibility for feasibility to team, defines [Definition of Done](#Definition-of-Done). 
+The Product Owner (PO) is responsible for the wording and implementation of the [User Stories](#User-Story). Writes user stories, represents user interests, defines requirements (not solutions), passes responsibility for feasibility to team, defines [Definition of Done](#Definition-of-Done). 
 
-## project spokesperson
+## Project spokesperson
 [ id=project_spokesperson ]
-Elected representative of a funded consortium of an [academic project](#academic-projects) who represents the consortium to the [PMD Steering Committee](#steering committee).
+Elected representative of a funded consortium of an [academic ](#Academic-Projects) or [industrial](#Industrial-projects) project who represents the consortium to the [PMD Steering Committee](#Steering-Committee).
 
-## project sponsor
+## Project sponsor
 [ id=project_sponsor ]
 Project sponsors are appointed by the [BMBF](#BMBF) and implement the technical and organizational aspects of the ministry's projects. 
 They advise prospective sponsors, applicants and grant recipients and are responsible for the administrative processing and technical support of the projects in all phases.
@@ -339,7 +340,7 @@ s. [Object Property](#Object-Property) and [Data Property](#Data-Property).
 
 ## Pyiron
 [ id=pyiron ]
-Pyiron is a Python-based integrated [workflow environment](#workflow environment) for computational materials science. It provides all the necessary tools to interactively run complex [simulation protocols](#simulation protocol) that can combine different computer codes and perform millions of separate computations on powerful computer clusters.
+Pyiron is a Python-based integrated [workflow environment](#Workflow-environment) for computational materials science. It provides all the necessary tools to interactively run complex [simulation protocols](#Simulation-log) that can combine different computer codes and perform millions of separate computations on powerful computer clusters.
 
 ---
 
@@ -353,7 +354,7 @@ Pyiron is a Python-based integrated [workflow environment](#workflow environment
 [ id=r-box ]
 The set of object properties axioms (transitivity, inclusion, symmetry, reflexivity, irreflexicity, disjunctiveness).
 
-~~Subset of [T-Box](#T-Box) containing the relations or [Properties](#Property) (Relationships).~~
+
 
 ## RDF
 [ id=rdf ]
@@ -361,9 +362,9 @@ Resource-Description-[Framework](#Framework). A standard model to describe and e
 
 ## Reasoning
 [ id=reasoning ]
-Taken together, the [RDF](#RDF) of a [triplestore](#triplestore) results in transitivities. These are used in reasoning to derive more information than just the originally described information. Reasoning is done by a software, the reasoner, which works on the triplestore.
+Taken together, the [RDF](#RDF) of a [triplestore](#Triplestore) results in transitivities. These are used in reasoning to derive more information than just the originally described information. Reasoning is done by a software, the reasoner, which works on the triplestore.
 
-## reusable
+## Reusable
 [ id=reusable ]
 Reusable data.
 This term is part of the [FAIR](#FAIR) principle.
@@ -378,7 +379,7 @@ The W3C-compliant [framework](#Framework) that is intended to provide a unique r
 
 ## SimStack
 [ id=simstack ]
-The [workflow environment](#workflow environment) SimStack enables the efficient design and customization of complex workflows ("rapid prototyping") with software modules from different vendors via drag-and-drop, exposing only settings relevant for the respective [use case](#use cases). Together with the automated execution of the workflows on mainframes, this minimizes the complexity for the end user and the required expertise. This enables the transfer of complex, multi-scale scientific methods to industry. 
+The [workflow environment](#Workflow-environment) SimStack enables the efficient design and customization of complex workflows ("rapid prototyping") with software modules from different vendors via drag-and-drop, exposing only settings relevant for the respective [use case](#Use-Cases). Together with the automated execution of the workflows on mainframes, this minimizes the complexity for the end user and the required expertise. This enables the transfer of complex, multi-scale scientific methods to industry. 
 
 ## Simulation log
 [ id=simulation_log ]
@@ -392,13 +393,13 @@ Single program for processing a specific material science task. It converts a we
 [ id=sparql ]
 SPARQL is synonymous with SPARQL Protocol And RDF Query Language and is a graph-based query language for querying content from the Resource Description [Framework](#Framework) ([RDF](#RDF)), which is used in databases to formulate logical statements about arbitrary things.
 
-## sprint
+## Sprint
 [ id=sprint ]
-In an [agile framework](#agile management), a sprint means a phase of work by a team designed to deliver [user stories](#user story).
+In an [agile framework](#Agile-Management), a sprint means a phase of work by a team designed to deliver [user stories](#User-Story).
 
 ## Stakeholder
 [ id=stakeholder ]
-Stakeholders are people and groups that have an interest in the course, results and processes of a project / [product](#product). It is also important to consider this interest in projects.
+Stakeholders are people and groups that have an interest in the course, results and processes of a project / [product](#Product). It is also important to consider this interest in projects.
 
 ## Standardization
 [ id=standardization ]
@@ -407,7 +408,7 @@ Standardization is the formulation, issuance and application of rules, guideline
 ## Steering Committee
 [ id=steering_committee ]
 The executive plenary of the [platform responsible 
-Consortium](#Platform Responsible Consortium--Platform Tr%C3%A4ger), represented by a spokesperson and one additional representative per funded organization.
+Consortium](#Platform-responsible-consortium), represented by a spokesperson and one additional representative per funded organization.
 
 ---
 
@@ -420,24 +421,24 @@ A taxonomy is a hirarchical breakdown in a classification system.
 
 ## T-box
 [ id=t-box ]
-The T-Box describes the Terminological Formalism and contains the knowledge about the [classes](#class) of the domain.
-The T-Box defines which [classes](#class) of objects exist in the domain and what properties they have.
+The T-Box describes the Terminological Formalism and contains the knowledge about the [classes](#Class) of the domain.
+The T-Box defines which [classes](#Class) of objects exist in the domain and what properties they have.
 
-## token
+## Token
 [ id=token ]
 A randomized system key that can be used for authentication, for example. The user usually does not get to see a token.
 
 ## Transitivity
 [ id=transitivity ]
-Logical [inference](#inference) according to the motto if A acts on B and B acts on C, then A acts on C as well. This becomes exploitable in the class hierarchy and other [Object Properties](#Object-Property) in [OWL](#owl) by [Reasoning](#Reasoning).
+Logical [inference](#Inference) according to the motto if A acts on B and B acts on C, then A acts on C as well. This becomes exploitable in the class hierarchy and other [Object Properties](#Object-Property) in [OWL](#OWL) by [Reasoning](#Reasoning).
 
-## triple
+## Triple
 [ id=triple ]
-A triple is a statement consisting of subject, predicate, and object, such as "man" - "is son of" - "woman". Triples are described uniformly with by [RDF](#RDF). ~~, leading to the [T-Box](#T-Box).~~ ~~They can then be associated with [instances](#instance), leading to the [A-box](#A-box), and allowing statements such as in the example "Karl" - "is son of" - "Anita".~~
+A triple is a statement consisting of subject, predicate, and object, such as "man" - "is son of" - "woman". Triples are described uniformly by [RDF](#RDF). 
 
-## triplestore
+## Triplestore
 [ id=triplestore ]
-A triplestore is a database in which [triples](#triple--triples) can be stored and retrieved by semantic queries.
+A triplestore is a database in which [triples](#Triple) can be stored and retrieved by semantic queries.
 The triple represents one data entity at a time.
 
 ## Turtle
@@ -454,7 +455,7 @@ Use cases that are implemented based on the platform, generated as part of funde
 
 ## User Story
 [ id=user_story ]
-A user story is the smallest unit from a user's perspective in an [agile framework](#agile management). It defines the desired functionality that the user envisions to solve exactly one of his [pain points](#pain point)
+A user story is the smallest unit from a user's perspective in an [agile framework](#Agile-Management). It defines the desired functionality that the user envisions to solve exactly one of his [pain points](#Pain-Point)
 
 ---
 
@@ -472,13 +473,13 @@ A versioning captures changes to documents or data.
 [ id=web_ontology_language ]
 s.[OWL](#OWL)
 
-## wikibase
+## Wikibase
 [ id=wikibase ]
 Open source graph database, knowledge database, queryable via [SPARQL](#SPARQL). However, Wikibase uses a relational data structure inside and is not migratable to other graph solutions without other.
 
-## workflow environment
+## Workflow environment
 [ id=workflow_environment ]
-Software installed on a PMD server instance within which other [software tools](#software tool) can be executed and combined in [simulation protocols](#simulation protocol). Uniform interfaces are governed by workflow environments.
+Software installed on a PMD server instance within which other [software tools](#Software-tool) can be executed and combined in [simulation protocols](#Simulation-log). Uniform interfaces are governed by workflow environments.
 
 
 ---
