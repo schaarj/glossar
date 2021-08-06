@@ -2,11 +2,11 @@
   "a-box": {
     "de": {
       "term": "A-Box",
-      "definition": "In einer [Ontologie](#Ontologie) repr\u00e4sentiert die A-Box den Zustand der modellierten Welt. Sie enth\u00e4lt das Wissen \u00fcber konkrete [Individuen / Instanzen](#Instanz) einer Dom\u00e4ne in Form von Fakten und Aussagen \u00fcber ihre [Eigenschaften](#Property) sowie ihrer Beziehungen untereinander. Daf\u00fcr bedient sie sich aus der Klassenterminologie der [T-Box](#T-Box)"
+      "definition": "In einer [Ontologie](#Ontologie) repr\u00e4sentiert die A-Box den Zustand der modellierten Welt. Sie enth\u00e4lt [Individuen / Instanzen](#Instanz) einer Dom\u00e4ne in Form von Fakten \u00fcber ihre [Eigenschaften](#Property) und der Beziehungen untereinander. Daf\u00fcr bedient sie sich aus der [T-Box](#T-Box)"
     },
     "en": {
       "term": "A-Box",
-      "definition": "In an [ontology](#ontology), the A-box represents the state of the modeled world. It contains the [individuals / instances](#instance) of a domain in the form of facts, their [properties](#property), and the relations to each other. For this purpose, it makes use of the [T-Box](#T-Box)"
+      "definition": "In an [ontology](#Ontology), the A-box represents the state of the modeled world. It contains the [individuals / instances](#Instance) of a domain in the form of facts, their [properties](#Property), and the relations to each other. For this purpose, it makes use of the [T-Box](#T-box)"
     }
   },
   "academic_projects": {
@@ -36,7 +36,7 @@
     },
     "en": {
       "term": "Agile Management",
-      "definition": "Agile management provides a methodology to act flexibly, pro-actively, anticipatively and proactively to introduce necessary changes. Typical elements of agile management are roles, [sprints](#sprint), and [user stories](#user story)."
+      "definition": "Agile management provides a methodology to act flexibly, pro-actively, anticipatively and proactively to introduce necessary changes. Typical elements of agile management are roles, [sprints](#Sprint), and [user stories](#User-Story)."
     }
   },
   "agile_manager": {
@@ -46,7 +46,7 @@
     },
     "en": {
       "term": "Agile Manager (AM)",
-      "definition": "A role in [agile management](#agile_management). The agile manager assists the team in an [agile management](#agiles management) with communication, organizes meetings, ensures adherence to roles and form, keeps track of the team, communicates issues to the [product owner](#product owner), prepares the agenda, and ensures proper documentation of the team."
+      "definition": "A role in [agile management](#Agile-Management). The agile manager assists the team in an [agile management](#Agile-Management) with communication, organizes meetings, ensures adherence to roles and form, keeps track of the team, communicates issues to the [product owner](#Product-Owner), prepares the agenda, and ensures proper documentation of the team."
     }
   },
   "api": {
@@ -62,11 +62,11 @@
   "application_ontology": {
     "de": {
       "term": "Anwendungsontologie",
-      "definition": "Eine (Teil-)[Ontologie](#Ontologie), die spezielle [Konzepte](#Konzept) f\u00fcr einen definierten [Anwendungsfall/Use Case](#Use-Cases) beinhaltet und strukturiert. Es ist davon auszugehen, dass pro Use Case der PMD und somit je gef\u00f6rdertem Projekt mindestens eine Anwendungsontologie erstellt werden muss, um die erzeugten Informationen wiederauffindbar zu integrieren."
+      "definition": "Eine (Teil-)[Ontologie](#Ontologie), die spezielle [Konzepte](#Konzept) f\u00fcr einen definierten [Anwendungsfall/Use Case](#Use-Cases) beinhaltet und strukturiert. Es ist davon auszugehen, dass pro Use Case der PMD und somit je gef\u00f6rdertem Projekt, abh\u00e4ngig vom Gebrauch/Ziel der Ontologie, mindestens eine Anwendungsontologie erstellt werden muss, um die erzeugten Informationen wiederauffindbar zu integrieren."
     },
     "en": {
-      "term": "application ontology",
-      "definition": "A (partial)[ontology](#ontology) that contains, structures, and describes, specific [entities](#entities) for a defined [use case/use cases](#use cases). It can be assumed that at least one application ontology has to be created per use case of the PMD and thus per funded project, depending on the use/goal of the ontology itself, in order to integrate the generated information in a retrievable way."
+      "term": "Application ontology",
+      "definition": "A (partial) [ontology](#Ontology) that contains, structures, and describes, specific entities for a defined [use case/use cases](#Use-Cases). It can be assumed that at least one application ontology has to be created per use case of the PMD and thus per funded project, depending on the use/goal of the ontology itself, in order to integrate the generated information in a retrievable way."
     }
   },
   "backlog": {
@@ -76,17 +76,17 @@
     },
     "en": {
       "term": "Backlog",
-      "definition": "In an [agile framework](#agile-management), a backlog contains project-related subtasks that need to be completed. They result from breaking down [user stories](#user-story) into individually executable technical actions to be implemented by a team member."
+      "definition": "In an [agile framework](#Agile-Management), a backlog contains project-related subtasks that need to be completed. They result from breaking down [user stories](#User-Story) into individually executable technical actions to be implemented by a team member."
     }
   },
   "blazegraph": {
     "de": {
       "term": "Blazegraph",
-      "definition": "Ein [Triplestore](#Triplestore), bzw. eine Graph-Datenbank"
+      "definition": "Ein [Triplestore](#Triplestore), bzw. eine Graph-Datenbank. Es bietet eine Schnittstelle zum Hochladen von Ontologien und Daten und stellt einen [SPARQL](#SPARQL)-Endpunkt zur Verf\u00fcgung."
     },
     "en": {
       "term": "Blazegraph",
-      "definition": "A [triplestore](#triplestore), or graph database. It provides an interface to upload ontologies and data, and provides a SPARQL endopoint."
+      "definition": "A [triplestore](#Triplestore), or graph database. It provides an interface to upload ontologies and data, and provides a [SPARQL](#SPARQL) endopoint."
     }
   },
   "blob": {
@@ -116,17 +116,17 @@
     },
     "en": {
       "term": "Central PMD instance (PMD-C)",
-      "definition": "PMD [instance](#instance) established at KIT on which the [workflow environments](#workflow environment) run permanently and on which all tools can be installed and tested. "
+      "definition": "PMD [instance](#Instance) established at KIT on which the [workflow environments](#Workflow-environment) run permanently and on which all tools can be installed and tested. "
     }
   },
   "class": {
     "de": {
       "term": "Klasse",
-      "definition": "s. \"[Konzept](#Konzept)\""
+      "definition": "s. \"[Konzept](#Konzept)\" Eine Klasse bietet einen Abstraktionsmechanismus zur Gruppierung von Ressourcen mit \u00e4hnlichen Merkmalen. Jede Klasse ist mit einer Gruppe von Individuen verbunden, die als Klassenerweiterung bezeichnet wird. Die Individuen in der Klassenerweiterung werden als [Instanzen](#Instanz) der Klasse bezeichnet. Eine Klasse hat eine intensionale Bedeutung, in diesem Fall das zugrunde liegende Konzept."
     },
     "en": {
       "term": "Class",
-      "definition": "~~s. \"[concept](#concept)\"~~  A [class](#class) provides an abstraction mechanism for grouping resources with similar characteristics. Every class is associated with a set of individuals, called the class extension. The individuals in the class extension are called the instances of the class. A class has an intensional meaning i.e., the underlying concept."
+      "definition": "s. [concept](#Concept)   A class provides an abstraction mechanism for grouping resources with similar characteristics. Every class is associated with a set of individuals, called the class extension. The individuals in the class extension are called the [instances](#Instance) of the class. A class has an intensional meaning i.e., the underlying concept."
     }
   },
   "cli": {
@@ -145,7 +145,7 @@
       "definition": "s. [CLI](#CLI)"
     },
     "en": {
-      "term": "command line",
+      "term": "Command line",
       "definition": "s. [CLI](#CLI)"
     }
   },
@@ -162,21 +162,21 @@
   "concept": {
     "de": {
       "term": "Konzept",
-      "definition": "Eine geteilte Begrifflichkeit f\u00fcr eine einheitlich als geschlossene Sache angesehene Entit\u00e4t. Beispiele sind \"Prozess\", \"Material\", \"Frieden\", \"Gl\u00fcck\". Gemeinsam mit [Properties](#Property) erm\u00f6glicht die [T-Box](#T-Box) in [Tripel](#Triple--Tripel) Aussagen \u00fcber die Verh\u00e4ltnisse von Konzepten zu machen. Konzepte entsprechen dann dem Subjekt und dem Objekt des Tripels. Konzepte sind mit \"[Klassen](#Klasse)\" und \"Objekten\" synonym zu verwenden."
+      "definition": "Eine geteilte Begrifflichkeit f\u00fcr eine einheitlich als geschlossene Sache angesehene Entit\u00e4t. Beispiele sind \"Prozess\", \"Material\", \"Frieden\", \"Gl\u00fcck\". Sie k\u00f6nnen verwendet werden, um die intensionale Bedeutung von Klassen auf der Grundlage ihrer Verwendung in der Zieldom\u00e4ne auszudr\u00fccken."
     },
     "en": {
-      "term": "concept",
-      "definition": "A shared conceptualization for an entity uniformly regarded as a closed thing. Examples include \"process\", \"material\", \"peace\", \"happiness\". They can be used to express the intensional meaning of classes based on their use within the target domain. ~~Together with [Properties](#Property), [T-Box](#T-Box) in [Triple](#Triple--Triple) allows to make statements about the relations of concepts. Concepts then correspond to the subject and object of the triple. Concepts are to be used synonymously with \"[classes](#class)\" and \"objects\".~~"
+      "term": "Concept",
+      "definition": "A shared conceptualization for an entity uniformly regarded as a closed thing. Examples include \"process\", \"material\", \"peace\", \"happiness\". They can be used to express the intensional meaning of classes based on their use within the target domain."
     }
   },
   "core_ontology": {
     "de": {
       "term": "Core Ontology",
-      "definition": "Die Core Ontology soll f\u00fcr die PMD einheitliche Konzepte definieren, auf die die [Anwendungsontologien](#Anwendungsontologie) wiederrum \u00fcbergreifend verweisen k\u00f6nnen. So soll dom\u00e4nenunabh\u00e4ngige Vereinheitlichung in der Informationsstrukturierung erm\u00f6glicht werden. Ein Beispiel w\u00e4re, dass das [Konzept](#Konzept) \"Prozess\" in der Core-Ontology vorliegen w\u00fcrde, da es \u00fcbergreifend ist und das Konzept \"Erm\u00fcdungsversuch\" in einer Anwendungsontologie als Subklasse auf Prozess verweist."
+      "definition": "Die Core Ontology soll f\u00fcr die PMD einheitliche Konzepte definieren, auf die die [Anwendungsontologien](#Anwendungsontologie) wiederrum \u00fcbergreifend verweisen k\u00f6nnen. So soll dom\u00e4nenunabh\u00e4ngige Vereinheitlichung in der Informationsstrukturierung erm\u00f6glicht werden. Ein Beispiel w\u00e4re, dass die [Klasse](#Klasse) \"Prozess\" in der Core-Ontology vorliegen w\u00fcrde, da es \u00fcbergreifend ist und die Klasse \"Erm\u00fcdungsversuch\" in einer Anwendungsontologie als Subklasse auf Prozess verweist."
     },
     "en": {
       "term": "Core Ontology",
-      "definition": "The Core Ontology shall define unified concepts for the PMD, to which the [Application Ontologies](#Application Ontology) can in turn refer across domains. This shall enable domain-independent standardization in information structuring. An example would be that the [class](#class) \"Process\" would be present in the Core Ontology, since it is cross-cutting, and the class \"fatigue test\" would refer to Process as a subclass in an application ontology."
+      "definition": "The Core Ontology shall define unified concepts for the PMD, to which the [Application Ontologies](#Application-ontology) can in turn refer across domains. This shall enable domain-independent standardization in information structuring. An example would be that the [class](#Class) \"Process\" would be present in the Core Ontology, since it is cross-cutting, and the class \"fatigue test\" would refer to Process as a subclass in an application ontology."
     }
   },
   "curation": {
@@ -185,18 +185,18 @@
       "definition": "Kuration oder Kurationsprozess bei der PMD beschreibt die fortlaufende Anpassung und \u00dcberpr\u00fcfung von [Softwaretools](#Software-Tool), [Ontologien](#Ontologie) und Workflows zur Qualit\u00e4tssicherung."
     },
     "en": {
-      "term": "curation",
-      "definition": "Curation or curation process in PMD describes the ongoing adaptation and review of [software tools](#software tool), [ontologies](#ontology), and workflows for quality assurance."
+      "term": "Curation",
+      "definition": "Curation or curation process in PMD describes the ongoing adaptation and review of [software tools](#Software-tool), [ontologies](#Ontology), and workflows for quality assurance."
     }
   },
   "data_property": {
     "de": {
       "term": "Data Property",
-      "definition": "Spezialisiertes [Property](#Property). Die Beziehung eines Literals zu einem [Konzept](#Konzept). Entspricht im Sinne von [RDF](#RDF) dem Verb des [Tripels](#Triple--Tripel)."
+      "definition": "Spezialisiertes [Property](#Property). Datentyp-Eigenschaften verkn\u00fcpfen Individuen mit Datenwerten. Eine Datentyp-Eigenschaft ist als Instanz der integrierten [OWL](#OWL)-Klasse owl:DatatypeProperty definiert. "
     },
     "en": {
       "term": "Datatype Property",
-      "definition": "Specialized [Property](#Property). Datatype properties link individuals to data values. A datatype property is defined as an instance of the built-in OWL class owl:DatatypeProperty. ~~Corresponds in the sense of [RDF](#RDF) to the verb of [triple](#Triple--Triple).~~"
+      "definition": "Specialized [Property](#Property). Datatype properties link individuals to data values. A datatype property is defined as an instance of the built-in [OWL](#OWL) class owl:DatatypeProperty. "
     }
   },
   "data_type": {
@@ -205,7 +205,7 @@
       "definition": "Ein Datentyp beschreibt schematisch eine Datenstruktur. Er kann sowohl f\u00fcr die Identifikation, wie auch f\u00fcr die strukturelle Beschreibung von Ressourcen verwendet werden. Eine Ablage in einer Datatype registry gew\u00e4hrleistet eine Maschinenlesbarkeit der Dateitypen."
     },
     "en": {
-      "term": "data_type",
+      "term": "Data type",
       "definition": "A data type schematically describes a data structure. It can be used for identification as well as for structural description of resources. A storage in a datatype registry ensures a machine readability of the datatypes."
     }
   },
@@ -216,7 +216,7 @@
     },
     "en": {
       "term": "Definition of Done",
-      "definition": "Definition in an [agile framework](#agile management) of when a [user story](#user story) is complete. The Definition of Done (DoD) defines the functionality from the user's perspective that is required to fulfill that user requirement."
+      "definition": "Definition in an [agile framework](#Agile-Management) of when a [user story](#User-Story) is complete. The Definition of Done (DoD) defines the functionality from the user's perspective that is required to fulfill that user requirement."
     }
   },
   "docker_container": {
@@ -229,14 +229,16 @@
       "definition": "A Docker Container is a standard software entity that packages the code and all of its dependencies so that the application can be executed quickly and reliably from one computing environment to another."
     }
   },
+  "domain_experts": {
+    "en": {
+      "term": "Domain experts",
+      "definition": "Scientific experts who (further) develop their domain within PMD in the context of [use cases](#Use-Cases). The scientific community as a whole thereby shapes the PMD both through their contribution and through participation methods. The selection of the scientific sub-fields represented in the PMD is based on the contributions of the domain experts."
+    }
+  },
   "domain_experts/community": {
     "de": {
       "term": "Dom\u00e4nenexperten / Community",
       "definition": "Wissenschaftliche Expertinnen und Experten, die im Rahmen von [Use Cases](#Use-Cases) ihr Fachgebiet innerhalb der PMD (weiter-)entwickeln. Die wissenschaftliche Community als Ganzes pr\u00e4gt dabei die PMD sowohl durch ihren Beitrag als auch durch Partizipationsmethoden. Die Auswahl der in der PMD repr\u00e4sentierten wissenschaftlichen Teilbereiche basiert auf den Beitr\u00e4gen der Dom\u00e4nenexperten."
-    },
-    "en": {
-      "term": "domain experts / community",
-      "definition": "Scientific experts who (further) develop their domain within PMD in the context of [use cases](#use cases). The scientific community as a whole thereby shapes the PMD both through their contribution and through participation methods. The selection of the scientific sub-fields represented in the PMD is based on the contributions of the domain experts."
     }
   },
   "epic": {
@@ -246,17 +248,17 @@
     },
     "en": {
       "term": "Epic",
-      "definition": "Overarching theme, comparable to [milestones](#milestone). Epics consist of numerous [user stories](#user story) and clearly stated tasks. They represent a \"minimum viable or viable [product](#product).\""
+      "definition": "Overarching theme, comparable to [milestones](#Milestone). Epics consist of numerous [user stories](#User-Story) and clearly stated tasks. They represent a \"minimum viable or viable [product](#Product)."
     }
   },
   "fair": {
     "de": {
       "term": "FAIR",
-      "definition": "Nach Wilkinson et al. (2016) sollten Daten [Findable](#Auffindbar), [Accessible](#Zug\u00e4nglichkeit), [Interoperable](#Interoperabilit\u00e4t), sowie [Reusable](#Wiederverwendbarkeit) sein. Das Akronym ist in der j\u00fcngeren Vergangenheit popul\u00e4r geworden, um die \u00fcbergeordneten vereinheitlichten Datenorganisationsziele der Wissenschaft zusammenzufassen."
+      "definition": "Nach Wilkinson et al. (2016) sollten Daten [Findable](#Auffindbar), [Accessible](#Zug\u00e4nglichkeit), [Interoperable](#Interoperabilit\u00e4t), sowie [Reusable](#Wiederverwendbarkeit) sein. Das Akronym ist in der j\u00fcngeren Vergangenheit popul\u00e4r geworden, um die \u00fcbergeordneten vereinheitlichten Datenorganisationsziele der Wissenschaft zusammenzufassen. Weitere Informationen finden Sie unter: Mark D Wilkinson, Michel Dumontier, IJsbrand Jan Aalbersberg, et al. 2016. [The FAIR Guiding Principles for scientific data management and stewardship](https://www.nature.com/articles/sdata201618). Scientific data 3, 1 (2016), 1\u20139."
     },
     "en": {
       "term": "FAIR",
-      "definition": "According to Wilkinson et al. (2016), data should be [Findable](#Findable), [Accessible](#Accessible), [Interoperable](#Interoperable), and [Reusable](#Reusable). The acronym has recently become popular to summarize the overarching unified data organization goals of science. For more info please refer to:  Mark D Wilkinson, Michel Dumontier, IJsbrand Jan Aalbersberg, et al. 2016. [The FAIR Guiding Principles for scientific data management and stewardship](https://www.nature.com/articles/sdata201618). Scientific data 3, 1 (2016), 1\u20139."
+      "definition": "According to Wilkinson et al. (2016), data should be [Findable](#Findable), [Accessible](#Accessibility), [Interoperable](#Interoperability), and [Reusable](#Reusable). The acronym has recently become popular to summarize the overarching unified data organization goals of science. For more info please refer to:  Mark D Wilkinson, Michel Dumontier, IJsbrand Jan Aalbersberg, et al. 2016. [The FAIR Guiding Principles for scientific data management and stewardship](https://www.nature.com/articles/sdata201618). Scientific data 3, 1 (2016), 1\u20139."
     }
   },
   "findable": {
@@ -275,18 +277,18 @@
       "definition": "Ein Framework ist eine Rahmenstruktur, welche notwendig zur Bef\u00fcllung des Datenraums ist."
     },
     "en": {
-      "term": "framework",
+      "term": "Framework",
       "definition": "A framework is a framework structure which is necessary to populate the data space."
     }
   },
-  "gitlab/github": {
+  "gitlab_github": {
     "de": {
       "term": "GitLab / GitHub",
       "definition": "Gitlab ist eine webbasierte Anwendung, bei der man in Projekten zusammenarbeiten kann. Projekten werden in repositories archiviert und eine [Versionierung](#Versionierung) ist m\u00f6glich. GitHub ist dem Gitlab sehr \u00e4hnlich, jedoch \u00f6ffentlich f\u00fcr jeden zug\u00e4nglich. In der Regel wird GitLab zum Projektmanagement und GitHub zur Ergebnisver\u00f6ffentlichung verwendet."
     },
     "en": {
       "term": "GitLab / GitHub",
-      "definition": "Gitlab is a web-based application where you can collaborate in projects. Projects are archived in repositories and [versioning](#versioning) is possible. GitHub is very similar to Gitlab, but publicly available to everyone. Usually GitLab is used for project management and GitHub for publishing results."
+      "definition": "Gitlab is a web-based application where you can collaborate in projects. Projects are archived in repositories and [versioning](#Versioning) is possible. GitHub is very similar to Gitlab, but publicly available to everyone. Usually GitLab is used for project management and GitHub for publishing results."
     }
   },
   "governance": {
@@ -306,7 +308,7 @@
     },
     "en": {
       "term": "GUI",
-      "definition": "GUI stands for graphical user interface and describes a user interface of a computer with the  input (e.g. mouse or gestures). By means of graphic symbols and control elements it makes application software operable. The GUI replaces thereby program control by the [command line](#command line) and makes software intuitively and for laymen operable."
+      "definition": "GUI stands for graphical user interface and describes a user interface of a computer with the  input (e.g. mouse or gestures). By means of graphic symbols and control elements it makes application software operable. The GUI replaces thereby program control by the [command line](#Command-line) and makes software intuitively and for laymen operable."
     }
   },
   "hackmd": {
@@ -322,11 +324,11 @@
   "industrial_projects": {
     "de": {
       "term": "Industrielle Projekte",
-      "definition": "Projekte und resultierende Konsortien aus der 2. erg\u00e4nzenden [BMBF](#BMBF) Ausschreibung MaterialDigital im Rahmen der Innovations-Plattform MaterialDigital. Sie sollen prim\u00e4r in Zusammenarbeit mit der Innovations-Plattform Inhalte und Bausteine f\u00fcr die PMD erarbeiten"
+      "definition": "Projekte und resultierende Konsortien aus der 2. erg\u00e4nzenden [BMBF](#BMBF) Ausschreibung MaterialDigital im Rahmen der Innovations-Plattform MaterialDigital. Sie sollen prim\u00e4r in Zusammenarbeit mit der [Innovations-Plattform](#Plattform-MaterialDigital) Inhalte und Bausteine f\u00fcr die PMD erarbeiten"
     },
     "en": {
       "term": "Industrial projects",
-      "definition": "Projects and resulting consortia from the 2nd supplementary [BMBF](#BMBF) call MaterialDigital in the context of the Innovation Platform MaterialDigital. They are primarily to develop content and building blocks for PMD in collaboration with the Innovation Platform."
+      "definition": "Projects and resulting consortia from the 2nd supplementary [BMBF](#BMBF) call MaterialDigital in the context of the Innovation [Platform MaterialDigital](#Platform-MaterialDigital). They are primarily to develop content and building blocks for PMD in collaboration with the Innovation Platform."
     }
   },
   "inference": {
@@ -336,7 +338,7 @@
     },
     "en": {
       "term": "Inference / Inference",
-      "definition": "The inference derived from [Reasoning](#reasoning)."
+      "definition": "The inference derived from [Reasoning](#Reasoning)."
     }
   },
   "instance": {
@@ -346,7 +348,7 @@
     },
     "en": {
       "term": "Instance",
-      "definition": "Individual realization of a [concept](#concept). For example, the concept tensile test may be instantiated with a particular tensile test that occurred at a particular time at a particular location and with particular parameters. All instantiations together represent the [ontology](#ontology) [A-Box](#A-Box), where statements are made about instances using the terminology defined in the [T-Box](#T-Box)."
+      "definition": "Individual realization of a [concept](#Concept). For example, the concept tensile test may be instantiated with a particular tensile test that occurred at a particular time at a particular location and with particular parameters. All instantiations together represent the [ontology](#Ontology) [A-Box](#A-Box), where statements are made about instances using the terminology defined in the [T-Box](#T-box)."
     }
   },
   "interoperability": {
@@ -355,7 +357,7 @@
       "definition": "Interoperabilit\u00e4t beschreibt Daten, die so vorliegen, dass sie ausgetauscht, interpretiert und halbautomatisch mit anderen Datens\u00e4tzen kombiniert werden k\u00f6nnen. Dieser Begriff ist Teil des [FAIR](#FAIR) Prinzips."
     },
     "en": {
-      "term": "interoperability",
+      "term": "Interoperability",
       "definition": "Interoperability describes data that exists in such a way that it can be exchanged, interpreted, and combined semi-automatically with other data sets. This term is part of the [FAIR](#FAIR) principle."
     }
   },
@@ -392,11 +394,11 @@
   "knowledge_graph": {
     "de": {
       "term": "Knowledge Graph / Wissensgraph",
-      "definition": "Der Wissensgraph repr\u00e4sentiert die gesammelten Informationen, die anhand von [Ontologien](#Ontologie) strukturiert und instanziiert wurden. Mittels Wissensgraphen k\u00f6nnen gro\u00dfe Datenmengen aggregiert und gesammelt Erkenntnisse abgeleitet werden."
+      "definition": "Ein Wissensgraph repr\u00e4sentiert die gesammelten Informationen, die anhand von [Ontologien](#Ontologie) strukturiert und instanziiert wurden. Mittels Wissensgraphen k\u00f6nnen gro\u00dfe Datenmengen aggregiert und gesammelt Erkenntnisse abgeleitet werden."
     },
     "en": {
-      "term": "knowledge graph",
-      "definition": "A knowledge graph is a kownledge base in form of a graph which describes entities and their relationships structured and instantiated accordingly to [ontologies](#ontology). Knowledge graphs can be used to aggregate large amounts of data and derive collected knowledge."
+      "term": "Knowledge graph",
+      "definition": "A knowledge graph is a knowledge base in form of a graph which describes entities and their relationships structured and instantiated accordingly to [ontologies](#Ontology). Knowledge graphs can be used to aggregate large amounts of data and derive collected knowledge."
     }
   },
   "knowledge_graph-wissensgraph": {
@@ -431,7 +433,7 @@
       "definition": "Der Plattform ist ein vom [BMBF](#BMBF) einberufener, industriell besetzter Managementkreis beigeordnet. Er soll die Fokussierung der Aktivit\u00e4ten im Projekt auf den maximalen industriellen Nutzen gew\u00e4hrleisten und einen optimalen Transfer der Ergebnisse in die Anwendung sicherstellen. Der Managementkreis tagt ein- bis zweimal j\u00e4hrlich gemeinsam mit den Mitgliedern der Plattform und wird in die Workshops des Vorhabens eingebunden. "
     },
     "en": {
-      "term": "management_board",
+      "term": "Management board",
       "definition": "The platform is associated with an industrially staffed management circle convened by the [BMBF](#BMBF). Its purpose is to ensure that project activities are focused on maximum industrial benefit and to ensure optimal transfer of results into application. The management circle meets once or twice a year together with the members of the platform and is involved in the workshops of the project. "
     }
   },
@@ -461,7 +463,7 @@
       "definition": "Meilensteine umschreiben die \u00fcbergeordneten Ziele im Projektplan. "
     },
     "en": {
-      "term": "milestone",
+      "term": "Milestone",
       "definition": "Milestones circumscribe the overall goals in the project plan. "
     }
   },
@@ -482,37 +484,37 @@
     },
     "en": {
       "term": "Object",
-      "definition": "s. \"[concept](#concept)\""
+      "definition": "s. \"[concept](#Concept)\""
     }
   },
   "object_property": {
     "de": {
       "term": "Object Property",
-      "definition": "Die Beziehung eines [Kozepts](#Konzept) zu einem anderen Konzept. Entspricht im Sinne von [RDF](#RDF) dem Verb des [Tripels](#Triple--Tripel)"
+      "definition": "Die Beziehung eines Individuums zu einem anderen Individuum. Eine Objekteigenschaft ist definiert als eine Instanz der eingebauten [OWL](#OWL)-Klasse owl:ObjectProperty. "
     },
     "en": {
       "term": "Object Property",
-      "definition": "The relationship of an [individual](#individual) to another individual. An object property is defined as an instance of the built-in OWL class owl:ObjectProperty.  ~~Corresponds, in terms of [RDF](#RDF), to the verb of [triple](#triple--triple).~~"
+      "definition": "The relationship of an individual to another individual. An object property is defined as an instance of the built-in [OWL](#OWL) class owl:ObjectProperty. "
     }
   },
   "ontology": {
     "de": {
       "term": "Ontologie",
-      "definition": "Explizite, formelle Strukturierung geteilter [Konzepte](#Konzept), die eine Dom\u00e4ne ausmachen. Eine Ontologie enth\u00e4lt dabei inhaltliche Verkn\u00fcpfungen, entweder deskriptiv oder formell. Sie geht \u00fcber eine reine [taxonomische Kategorisierung](#Taxonomie) hinaus und kann dadurch mehr leisten als eine Standardisierung. Eine Ontologie f\u00fcr die Materialwissenschaft und Werkstofftechnik muss wann immer m\u00f6glich den skalen\u00fcbergreifenden Charakter der Disziplin ber\u00fccksichtigen. Sie muss in sich \u00fcber eine relationale Beschreibung hinaus einen logischen Mehrwert bieten."
+      "definition": "Eine Ontologie ist eine explizite, formelle Spezifikation eine geteilter [Konzeptualisierung](#Konzept). Der Begriff ist der Philosophie entlehnt, wo eine Ontologie eine systematische Darstellung der Existenz ist. F\u00fcr KI-Systeme ist das, was \"existiert\", das, was dargestellt werden kann. Eine Ontologie enth\u00e4lt dabei inhaltliche Verkn\u00fcpfungen, entweder deskriptiv oder formell. Sie geht \u00fcber eine reine [taxonomische Kategorisierung](#Taxonomie) hinaus und kann dadurch mehr leisten als eine Standardisierung. Eine Ontologie f\u00fcr die Materialwissenschaft und Werkstofftechnik muss wann immer m\u00f6glich den skalen\u00fcbergreifenden Charakter der Disziplin ber\u00fccksichtigen. Sie muss in sich \u00fcber eine relationale Beschreibung hinaus einen logischen Mehrwert bieten."
     },
     "en": {
-      "term": "ontology",
-      "definition": "An ontology is an explicit, formal specification of a shared conceptualization. The term is borrowed from philosophy, where an Ontology is a systematic account of existence. For AI systems, what \u2018exists\u2019 is that which can be represented. ~~Explicit, formal structuring of shared [concepts](#concept) that make up a domain.~~ In this context, an ontology contains content links, either descriptive or formal. It goes beyond mere [taxonomic categorization](#taxonomy) and thus can do more than standardization. Whenever possible, an ontology for materials science and engineering must take into account the cross-scale nature of the discipline. It must in itself provide logical added value beyond a relational description."
+      "term": "Ontology",
+      "definition": "An ontology is an explicit, formal specification of a shared conceptualization. The term is borrowed from philosophy, where an Ontology is a systematic account of existence. For AI systems, what \u2018exists\u2019 is that which can be represented. In this context, an ontology contains content links, either descriptive or formal. It goes beyond mere [taxonomic categorization](#Taxonomy) and thus can do more than standardization. Whenever possible, an ontology for materials science and engineering must take into account the cross-scale nature of the discipline. It must in itself provide logical added value beyond a relational description."
     }
   },
   "owl": {
     "de": {
       "term": "OWL",
-      "definition": "OWL, the Web Ontology language ist eine Spezifikation des [W3C](#Semantic-Web) und eine Web-[Ontologie](#Ontologie)-Sprache. Durch sie werden hierarchische [Klassen](#Klasse), Attributen und Assoziationen dieser Klassen und deren Beziehung untereinander beschrieben. Attribute und Assoziationen werden zusammenfassend als Eigenschaften einer Klasse bezeichnet. OWL ist somit die standardisierte [RDF](#RDF)-Syntax, auf die man sich f\u00fcr das Web geeinigt hat."
+      "definition": "OWL, the Web Ontology language ist eine Spezifikation des [W3C](#Semantic-Web).Es ist eine Auszeichnungssprache f\u00fcr die Entwicklung und Ver\u00f6ffentlichung von [Ontologien](#Ontologie). Ihre Dokumentation finden Sie [hier](https://www.w3.org/TR/owl-ref/#Property)."
     },
     "en": {
       "term": "OWL",
-      "definition": "OWL, the Web Ontology language is a specification of the [W3C](#Semantic-Web). It is a markup language for developing and publishing ontologies. Its documentation can be found [here](https://www.w3.org/TR/owl-ref/#Property). ~~web [ontology](#ontology) language. It describes hierarchical [classes](#class), attributes and associations of these classes and their relationship to each other.Attributes and associations are collectively called properties of a class. OWL is thus the standardized [RDF](#RDF) syntax agreed upon for the Web.~~"
+      "definition": "OWL, the Web Ontology language is a specification of the [W3C](#Semantic-Web). It is a markup language for developing and publishing [ontologies](#Ontology). Its documentation can be found [here](https://www.w3.org/TR/owl-ref/#Property)."
     }
   },
   "pain_point": {
@@ -522,7 +524,7 @@
     },
     "en": {
       "term": "Pain Point",
-      "definition": "In the [agile framework](#agile management), a pain point is a recurring problem that a [stakeholder group](#stakeholder) encounters in the course of its activities and that a member of that group cannot immediately resolve on its own. This creates a willingness to pay on the part of the member for the solution of the Pain Point."
+      "definition": "In the [agile framework](#Agile-Management), a pain point is a recurring problem that a [stakeholder group](#Stakeholder) encounters in the course of its activities and that a member of that group cannot immediately resolve on its own. This creates a willingness to pay on the part of the member for the solution of the Pain Point."
     }
   },
   "parser-parsing": {
@@ -538,11 +540,11 @@
   "platform_materialdigital": {
     "de": {
       "term": "Plattform MaterialDigital",
-      "definition": "Die Plattform MaterialDigital (PMD) ist die Infrastruktur, die f\u00fcr einen einheitlichen Austausch und die Verkn\u00fcpfung von Daten, Softwarel\u00f6sungen und [Ontologien](#Ontologie) zum Umgang mit Materialien notwendig ist. Sie stellt damit die vereinheitlichende technologische Basis dar, mit der Daten und Software aus verschiedenen Anwendungsfeldern miteinander verkn\u00fcpft werden k\u00f6nnen. Die Plattform wird erstellt und repr\u00e4sentiert durch die [Plattformverantwortlichen](#Plattformverantwortliches-Konsortium--Plattformtr%C3%A4ger) und die [gef\u00f6rderten wissenschaftlichen Projekte](#Akademische-Projekte). "
+      "definition": "Die Plattform MaterialDigital (PMD) ist die Infrastruktur, die f\u00fcr einen einheitlichen Austausch und die Verkn\u00fcpfung von Daten, Softwarel\u00f6sungen und [Ontologien](#Ontologie) zum Umgang mit Materialien notwendig ist. Sie stellt damit die vereinheitlichende technologische Basis dar, mit der Daten und Software aus verschiedenen Anwendungsfeldern miteinander verkn\u00fcpft werden k\u00f6nnen. Die Plattform wird erstellt und repr\u00e4sentiert durch die [Plattformverantwortlichen](#Plattformverantwortliches-Konsortium--Plattformtr%C3%A4ger) und die [gef\u00f6rderten wissenschaftlichen](#Akademische-Projekte) und [Industriellen Projekte](#Industrielle-Projekte). "
     },
     "en": {
       "term": "Platform MaterialDigital",
-      "definition": "The Platform MaterialDigital (PMD) is the infrastructure necessary for a unified exchange and linking of data, software solutions and [ontologies](#ontology) for dealing with materials. It thus represents the unifying technological basis with which data and software from different application fields can be linked. The platform is created and represented by the [Platform Responsible Consortium](#Platform Responsible Consortium- Platform Tr%C3%A4ger) and the [Funded Scientific Projects](#Academic Projects). "
+      "definition": "The Platform MaterialDigital (PMD) is the infrastructure necessary for a unified exchange and linking of data, software solutions and [ontologies](#Ontology) for dealing with materials. It thus represents the unifying technological basis with which data and software from different application fields can be linked. The platform is created and represented by the [Platform Responsible Consortium](#Platform-responsible-consortium) and the funded [Scientific ](#Academic-Projects) and [Industrial Projects](#Industrial-projects). "
     }
   },
   "platform_responsible_consortium": {
@@ -551,7 +553,7 @@
       "definition": "Das Konsortium, das die Plattform MaterialDigital (PMD) seit ihrem Beginn im Juli 2019 betreut, bestehend aus der Bundesanstalt f\u00fcr Materialforschung und -pr\u00fcfung (BAM), dem Karlsruher Institut f\u00fcr Technologie (KIT), dem Max-Planck-Institut f\u00fcr Eisenforschung (MPIE), dem Fraunhofer Institut f\u00fcr Werkstoffmechanik (IWM) und dem Leibniz-Institut f\u00fcr Werkstofforientierte Technologien (IWT)."
     },
     "en": {
-      "term": "platform-responsible-consortium/platform-carrier.",
+      "term": "Platform responsible consortium",
       "definition": "The consortium that has been managing the MaterialDigital (PMD) platform since its inception in July 2019, consisting of the Federal Institute for Materials Research and Testing (BAM), the Karlsruhe Institute of Technology (KIT), the Max Planck Institute for Iron Research (MPIE), the Fraunhofer Institute for Mechanics of Materials (IWM), and the Leibniz Institute for Materials-oriented Technologies (IWT)."
     }
   },
@@ -562,7 +564,7 @@
     },
     "en": {
       "term": "PMD-Central / PMD-C",
-      "definition": "Server set up at KIT on which the [workflow environments](#workflow environment) run permanently and on which all tools can be installed and tested."
+      "definition": "Server set up at KIT on which the [workflow environments](#Workflow-environment) run permanently and on which all tools can be installed and tested."
     }
   },
   "product": {
@@ -572,7 +574,7 @@
     },
     "en": {
       "term": "Product",
-      "definition": "A product is something created by a process that provides value to a market by solving a sum of predefined [pain points](#pain point) from customers and [stakeholder groups](#stakeholders). "
+      "definition": "A product is something created by a process that provides value to a market by solving a sum of predefined [pain points](#Pain-Point) from customers and [stakeholder groups](#Stakeholder). "
     }
   },
   "product_owner": {
@@ -582,17 +584,17 @@
     },
     "en": {
       "term": "Product Owner",
-      "definition": "The Product Owner (PO) is responsible for the wording and implementation of the [User Stories](#User Story). Writes user stories, represents user interests, defines requirements (not solutions), passes responsibility for feasibility to team, defines [Definition of Done](#Definition-of-Done). "
+      "definition": "The Product Owner (PO) is responsible for the wording and implementation of the [User Stories](#User-Story). Writes user stories, represents user interests, defines requirements (not solutions), passes responsibility for feasibility to team, defines [Definition of Done](#Definition-of-Done). "
     }
   },
   "project_spokesperson": {
     "de": {
       "term": "Projektsprecher/in",
-      "definition": "Gew\u00e4hlte\\*r Vertreter\\*in eines gef\u00f6rderten Konsortiums eines [akademischen Projekts](#Akademische-Projekte), der/die das Konsortium gegen\u00fcber dem [PMD-Lenkungskreis](#Lenkungskreis) vertritt."
+      "definition": "Gew\u00e4hlte\\*r Vertreter\\*in eines gef\u00f6rderten Konsortiums eines [akademischen](#Akademische-Projekte) oder [industriellen Projektes](#Industrielle-Projekte), der/die das Konsortium gegen\u00fcber dem [PMD-Lenkungskreis](#Lenkungskreis) vertritt."
     },
     "en": {
-      "term": "project spokesperson",
-      "definition": "Elected representative of a funded consortium of an [academic project](#academic-projects) who represents the consortium to the [PMD Steering Committee](#steering committee)."
+      "term": "Project spokesperson",
+      "definition": "Elected representative of a funded consortium of an [academic ](#Academic-Projects) or [industrial](#Industrial-projects) project who represents the consortium to the [PMD Steering Committee](#Steering-Committee)."
     }
   },
   "project_sponsor": {
@@ -601,7 +603,7 @@
       "definition": "Projekttr\u00e4ger werden vom [BMBF](#BMBF) eingesetzt und setzen die Projekte des Ministeriums fachlich und organisatorisch um.  Sie beraten F\u00f6rderinteressenten, Antragssteller und Zuwendungsempf\u00e4nger und sind f\u00fcr die administrative Bearbeitung und fachliche Begleitung der Projekte in allen Phasen zust\u00e4ndig."
     },
     "en": {
-      "term": "project sponsor",
+      "term": "Project sponsor",
       "definition": "Project sponsors are appointed by the [BMBF](#BMBF) and implement the technical and organizational aspects of the ministry's projects.  They advise prospective sponsors, applicants and grant recipients and are responsible for the administrative processing and technical support of the projects in all phases."
     }
   },
@@ -622,23 +624,23 @@
     },
     "en": {
       "term": "Pyiron",
-      "definition": "Pyiron is a Python-based integrated [workflow environment](#workflow environment) for computational materials science. It provides all the necessary tools to interactively run complex [simulation protocols](#simulation protocol) that can combine different computer codes and perform millions of separate computations on powerful computer clusters."
+      "definition": "Pyiron is a Python-based integrated [workflow environment](#Workflow-environment) for computational materials science. It provides all the necessary tools to interactively run complex [simulation protocols](#Simulation-log) that can combine different computer codes and perform millions of separate computations on powerful computer clusters."
     }
   },
   "r-box": {
     "de": {
       "term": "R-Box",
-      "definition": "Subset der [T-Box](#T-Box), das die Beziehungen oder [Properties](#Property) (Relationships) beinhaltet."
+      "definition": "Die Menge der Axiome f\u00fcr die Objekteigenschaften (Transitivit\u00e4t, Inklusion, Symmetrie, Reflexivit\u00e4t, Irreflexivit\u00e4t, Disjunktionalit\u00e4t)."
     },
     "en": {
       "term": "R-box",
-      "definition": "The set of object properties axioms (transitivity, inclusion, symmetry, reflexivity, irreflexicity, disjunctiveness). ~~Subset of [T-Box](#T-Box) containing the relations or [Properties](#Property) (Relationships).~~"
+      "definition": "The set of object properties axioms (transitivity, inclusion, symmetry, reflexivity, irreflexicity, disjunctiveness)."
     }
   },
   "rdf": {
     "de": {
       "term": "RDF",
-      "definition": "Resource-Description-[Framework](#Framework). Eine vereinheitlichte Weise um Informationen semantisch standardisiert zu beschreiben. Beispielsweise [OWL](#OWL)."
+      "definition": "Resource-Description-[Framework](#Framework). Ein Standardmodell um Informationen semantisch standardisiert im Web zu beschreiben und auszutauschen. ."
     },
     "en": {
       "term": "RDF",
@@ -652,7 +654,7 @@
     },
     "en": {
       "term": "Reasoning",
-      "definition": "Taken together, the [RDF](#RDF) of a [triplestore](#triplestore) results in transitivities. These are used in reasoning to derive more information than just the originally described information. Reasoning is done by a software, the reasoner, which works on the triplestore."
+      "definition": "Taken together, the [RDF](#RDF) of a [triplestore](#Triplestore) results in transitivities. These are used in reasoning to derive more information than just the originally described information. Reasoning is done by a software, the reasoner, which works on the triplestore."
     }
   },
   "reusable": {
@@ -661,7 +663,7 @@
       "definition": "Wiederverwendbar sind Daten. Dieser Begriff ist Teil des [FAIR](#FAIR) Prinzips"
     },
     "en": {
-      "term": "reusable",
+      "term": "Reusable",
       "definition": "Reusable data. This term is part of the [FAIR](#FAIR) principle."
     }
   },
@@ -682,7 +684,7 @@
     },
     "en": {
       "term": "SimStack",
-      "definition": "The [workflow environment](#workflow environment) SimStack enables the efficient design and customization of complex workflows (\"rapid prototyping\") with software modules from different vendors via drag-and-drop, exposing only settings relevant for the respective [use case](#use cases). Together with the automated execution of the workflows on mainframes, this minimizes the complexity for the end user and the required expertise. This enables the transfer of complex, multi-scale scientific methods to industry. "
+      "definition": "The [workflow environment](#Workflow-environment) SimStack enables the efficient design and customization of complex workflows (\"rapid prototyping\") with software modules from different vendors via drag-and-drop, exposing only settings relevant for the respective [use case](#Use-Cases). Together with the automated execution of the workflows on mainframes, this minimizes the complexity for the end user and the required expertise. This enables the transfer of complex, multi-scale scientific methods to industry. "
     }
   },
   "simulation_log": {
@@ -721,8 +723,8 @@
       "definition": "In einem [agilen Framework](#Agiles-Management) bedeutet ein Sprint eine Arbeitsphase eines Teams, die dazu dient, [User Stories](#User-Story) zu liefern."
     },
     "en": {
-      "term": "sprint",
-      "definition": "In an [agile framework](#agile management), a sprint means a phase of work by a team designed to deliver [user stories](#user story)."
+      "term": "Sprint",
+      "definition": "In an [agile framework](#Agile-Management), a sprint means a phase of work by a team designed to deliver [user stories](#User-Story)."
     }
   },
   "stakeholder": {
@@ -732,7 +734,7 @@
     },
     "en": {
       "term": "Stakeholder",
-      "definition": "Stakeholders are people and groups that have an interest in the course, results and processes of a project / [product](#product). It is also important to consider this interest in projects."
+      "definition": "Stakeholders are people and groups that have an interest in the course, results and processes of a project / [product](#Product). It is also important to consider this interest in projects."
     }
   },
   "standardization": {
@@ -752,17 +754,17 @@
     },
     "en": {
       "term": "Steering Committee",
-      "definition": "The executive plenary of the [platform responsible  Consortium](#Platform Responsible Consortium--Platform Tr%C3%A4ger), represented by a spokesperson and one additional representative per funded organization."
+      "definition": "The executive plenary of the [platform responsible  Consortium](#Platform-responsible-consortium), represented by a spokesperson and one additional representative per funded organization."
     }
   },
   "t-box": {
     "de": {
       "term": "T-Box",
-      "definition": "Die T-Box beschreibt den Terminologischen Formalismus und enth\u00e4lt das Wissen \u00fcber die [Konzepte](#Konzept) der Dom\u00e4ne. In der T-Box wird definiert, welche [Klassen](#Klasse) von Objekten es in der Dom\u00e4ne gibt und welche Eigenschaften sie haben."
+      "definition": "Die T-Box beschreibt den Terminologischen Formalismus und enth\u00e4lt das Wissen \u00fcber die [Klassen](#Klasse) der Dom\u00e4ne. In der T-Box wird definiert, welche [Klassen](#Klasse) von Objekten es in der Dom\u00e4ne gibt und welche Eigenschaften sie haben."
     },
     "en": {
       "term": "T-box",
-      "definition": "The T-Box describes the Terminological Formalism and contains the knowledge about the [classes](#class) of the domain. The T-Box defines which [classes](#class) of objects exist in the domain and what properties they have."
+      "definition": "The T-Box describes the Terminological Formalism and contains the knowledge about the [classes](#Class) of the domain. The T-Box defines which [classes](#Class) of objects exist in the domain and what properties they have."
     }
   },
   "taxonomy": {
@@ -781,28 +783,28 @@
       "definition": "Ein randomisierter Systemschl\u00fcssel, der bspw. zur Authentifizierung genutzt werden kann. Der User bekommt einen Token in der Regel nicht zu Gesicht."
     },
     "en": {
-      "term": "token",
+      "term": "Token",
       "definition": "A randomized system key that can be used for authentication, for example. The user usually does not get to see a token."
     }
   },
   "transitivity": {
     "de": {
       "term": "Transitivit\u00e4t",
-      "definition": "Logische [Inferenz](#Inferenz--Inference) nach dem Motto wenn A auf B wirkt und B auf C, dann wirkt auch A auf C. Dies wird in der Klassenhierarchie und anderen [Object Properties](#Object-Property) in [RDF](#RDF) durch [Reasoning](#Reasoning) ausnutzbar."
+      "definition": "Logische [Inferenz](#Inferenz--Inference) nach dem Motto wenn A auf B wirkt und B auf C, dann wirkt auch A auf C. Dies wird in der Klassenhierarchie und anderen [Object Properties](#Object-Property) in [OWL](#OWL) durch [Reasoning](#Reasoning) ausnutzbar."
     },
     "en": {
       "term": "Transitivity",
-      "definition": "Logical [inference](#inference) according to the motto if A acts on B and B acts on C, then A acts on C as well. This becomes exploitable in the class hierarchy and other [Object Properties](#Object-Property) in [OWL](#owl) by [Reasoning](#Reasoning)."
+      "definition": "Logical [inference](#Inference) according to the motto if A acts on B and B acts on C, then A acts on C as well. This becomes exploitable in the class hierarchy and other [Object Properties](#Object-Property) in [OWL](#OWL) by [Reasoning](#Reasoning)."
     }
   },
   "triple": {
     "de": {
       "term": "Triple / Tripel",
-      "definition": "Ein Tripel ist eine Aussage aus Subjekt, Pr\u00e4dikat und Objekt, wie beispielsweise \"Mann\" - \"ist Sohn von\" - \"Frau\". Tripel werden mit einem [RDF](#RDF) einheitlich beschrieben, was zur [T-Box](#T-Box) f\u00fchrt. Sie k\u00f6nnen danach mit [Instanzen](#Instanz) verbunden werden, was zur [A-Box](#A-Box) f\u00fchrt, und Aussagen erm\u00f6glicht wie im Beispiel \"Karl\" - \"ist Sohn von\" - \"Anita\"."
+      "definition": "Ein Tripel ist eine Aussage aus Subjekt, Pr\u00e4dikat und Objekt, wie beispielsweise \"Mann\" - \"ist Sohn von\" - \"Frau\". Tripel werden mit [RDF](#RDF) einheitlich beschrieben."
     },
     "en": {
-      "term": "triple",
-      "definition": "A triple is a statement consisting of subject, predicate, and object, such as \"man\" - \"is son of\" - \"woman\". Triples are described uniformly with by [RDF](#RDF). ~~, leading to the [T-Box](#T-Box).~~ ~~They can then be associated with [instances](#instance), leading to the [A-box](#A-box), and allowing statements such as in the example \"Karl\" - \"is son of\" - \"Anita\".~~"
+      "term": "Triple",
+      "definition": "A triple is a statement consisting of subject, predicate, and object, such as \"man\" - \"is son of\" - \"woman\". Triples are described uniformly by [RDF](#RDF). "
     }
   },
   "triplestore": {
@@ -811,14 +813,14 @@
       "definition": "Ein Triplestore ist eine Datenbank in  der [Tripel](#Triple--Tripel) durch semantische Abfragen gespeichert und abgerufen werden k\u00f6nnnen. Das Tripel stellt jeweils eine Datenentit\u00e4t dar."
     },
     "en": {
-      "term": "triplestore",
-      "definition": "A triplestore is a database in which [triples](#triple--triples) can be stored and retrieved by semantic queries. The triple represents one data entity at a time."
+      "term": "Triplestore",
+      "definition": "A triplestore is a database in which [triples](#Triple) can be stored and retrieved by semantic queries. The triple represents one data entity at a time."
     }
   },
   "turtle": {
     "de": {
       "term": "Turtle",
-      "definition": "Eine standardisierte [RDF-Syntax](#RDF)"
+      "definition": "Eine standardisierte [RDF-Syntax](#RDF) Serialisierung."
     },
     "en": {
       "term": "Turtle",
@@ -842,7 +844,7 @@
     },
     "en": {
       "term": "User Story",
-      "definition": "A user story is the smallest unit from a user's perspective in an [agile framework](#agile management). It defines the desired functionality that the user envisions to solve exactly one of his [pain points](#pain point)"
+      "definition": "A user story is the smallest unit from a user's perspective in an [agile framework](#Agile-Management). It defines the desired functionality that the user envisions to solve exactly one of his [pain points](#Pain-Point)"
     }
   },
   "versioning": {
@@ -871,7 +873,7 @@
       "definition": "Open-Source-Graphendatenbank, Wissendatenbank, per [SPARQL](#SPARQL) abfragbar. Wikibase benutzt im Innern jedoch eine relationale Datenstruktur und ist nicht ohne anderes in andere Graphenl\u00f6sungen migrierbar."
     },
     "en": {
-      "term": "wikibase",
+      "term": "Wikibase",
       "definition": "Open source graph database, knowledge database, queryable via [SPARQL](#SPARQL). However, Wikibase uses a relational data structure inside and is not migratable to other graph solutions without other."
     }
   },
@@ -881,8 +883,8 @@
       "definition": "Auf einer PMD Server Instanz installierte Software, innerhalb derer weitere [Softwaretools](#Software-Tool) ausgef\u00fchrt und in [Simulationsprotokollen](#Simulationsprotokoll) kombiniert werden k\u00f6nnen. Durch Workflowumgebungen werden einheitliche Schnittstellen geregelt."
     },
     "en": {
-      "term": "workflow environment",
-      "definition": "Software installed on a PMD server instance within which other [software tools](#software tool) can be executed and combined in [simulation protocols](#simulation protocol). Uniform interfaces are governed by workflow environments."
+      "term": "Workflow environment",
+      "definition": "Software installed on a PMD server instance within which other [software tools](#Software-tool) can be executed and combined in [simulation protocols](#Simulation-log). Uniform interfaces are governed by workflow environments."
     }
   }
 }
