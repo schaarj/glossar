@@ -11,7 +11,6 @@ Glossar
 
 ---
 
-[<i class="fa fa-arrow-circle-right"></i> English Version](https://hackmd.io/@materialdigital/By_tdQOCO)
 
 # A
 
